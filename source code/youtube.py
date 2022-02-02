@@ -6,7 +6,7 @@ import youtube_dl
 import platform
 import ctypes
 system = platform.system()
-ctypes.windll.kernel32.SetConsoleTitleW("Youtube MP3 Downloader by Mental V2")
+print('\33]0;Youtube MP3 Downloader by Adash AZ V2\a', end='', flush=True)
 color = fg('red')
 github = fg('blue')
 credits = fg('green')
